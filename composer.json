@@ -1,0 +1,23 @@
+{
+    "name": "aboustayyef/summarize",
+    "description": "a utility class that summarizes text based on the flipboard method",
+    "license": "MIT",
+    "keywords": ["text", "summarization"],
+    "authors": [
+        {
+            "name": "Mustapha Hamoui",
+            "email": "mustapha@hamoui.com"
+        }
+    ],
+    "require": {
+        "camspiers/porter-stemmer": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aboustayyef\\": "src"
+        }
+    }
+}
