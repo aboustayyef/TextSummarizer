@@ -7,11 +7,13 @@ This is a utility class for extracting a summary from large texts.
 ```
 <?php
 
-use Aboustayyef\Summarizer;
-$document = new Extractor("http://source/to/document.html");
-$title = $document->getTitle();
-$text = $document->getText();
+$document = new Aboustayyef\Summarizer;
+ 
+$document->text = <<<EOD
+This is where you put a text. It can include <em>tags</em>. But they will be removed.
+EOD;
 
+echo $document->summarize(2); // number of sentences wanted
 
 ?>
 

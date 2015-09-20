@@ -1,5 +1,5 @@
 {
-    "name": "aboustayyef/summarize",
+    "name": "aboustayyef/summarizer",
     "description": "a utility class that summarizes text based on the flipboard method",
     "license": "MIT",
     "keywords": ["text", "summarization"],
